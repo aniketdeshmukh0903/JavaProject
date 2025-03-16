@@ -10,7 +10,7 @@ public class BinarySearch {
 		
 		boolean flag =false;
 		
-		int search=10;
+		int search=1;
 		int l=0;
 		int h=a.length-1;
 		
@@ -32,8 +32,8 @@ public class BinarySearch {
 			System.out.println("element not found");
 		}
 		
-		//Approach 2
-		System.out.println(Arrays.binarySearch(a, 8));
+//		//Approach 2
+//		System.out.println(Arrays.binarySearch(a, 8));
 	}
 
 }
